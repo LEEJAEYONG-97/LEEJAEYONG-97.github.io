@@ -20,26 +20,21 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Lee Jae Yong",
+  title: "Hi all, I'm Jae Yong",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    " I majored in Accounting and Taxation at Woongji College and worked as an accounting assistant for two years. During this time, I gained a deep understanding of the importance of data analysis and management, which sparked my interest in the development field.🚀 As a result, I decided to transition to the IT sector and am currently participating in a Full-Stack Developer training program, learning the latest technologies."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  resumeLink: "https://drive.google.com/uc?export=download&id=14HfHNDA_O-gTFTDvIh0xIW9S6fHMmlhz",
+ // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/LEEJAEYONG-97",
+  gmail: "yliy6452@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +44,19 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Passionate developer on a journey to find my dream.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ In the ongoing Full-Stack Developer training program, I am learning key technologies such as MongoDB, MySQL, Machine Learning, and Deep Learning. I am acquiring skills in data analysis and modeling, web application development, and advanced data processing techniques, while cultivating problem-solving abilities in real-world scenarios. I particularly excel in developing data analysis and predictive models using machine learning and deep learning."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "🛠️ Problem-Solving and Collaboration Skills: I prioritize a systematic approach to problem-solving and have strengths in making data-driven decisions. When faced with technical issues during project execution, I have swiftly analyzed the causes and proposed solutions, successfully completing projects. Through collaboration with two teammates, I coordinated various aspects of the project and fostered an efficient work environment."
+    ),
+    emoji(
+      "🎯 Vision and Goals: I am confident in my ability to successfully perform any assigned tasks, regardless of the role within your company. I will continually learn about the latest technological trends, strive to solve problems, and work diligently to achieve team goals. I aim to grow alongside your company through technical challenges and personal development."
+    ),
+    emoji(
+      "🔍 Conclusion: I believe my experience and skills align with your company’s requirements, and I look forward to the opportunity to discuss further during an interview. Thank you for your consideration."
     )
   ],
 
@@ -73,10 +73,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
@@ -89,24 +85,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
     },
     {
       skillName: "python",
@@ -126,23 +110,10 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Woongji Accouting & Tax University",
+      logo: require("./assets/images/woongji.png"),
+      subHeader: "Major in Tax Accounting",
+      duration: "February 2015 - February 2020"
     }
   ]
 };
@@ -154,7 +125,7 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "30%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
@@ -162,7 +133,7 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "50%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +145,25 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      role: "기업프로젝트 기반 빅데이터를 활용한 풀스택(프론트-백엔드) 개발자 양성",
+      company: "NCS 응용SW엔지니어링",
+      companylogo: require("./assets/images/mbc.png"),
+      date: "Mar 2024 – Present",
+      desc: "프로그래밍 언어(Python,WEB,JSP,JAVA),머신러닝/딥러닝 학습하고 기업요구 공공데이터분석 프로젝트 3가지 수행"
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Administrative Assistant",
+      company: "세무법인이지",
+      companylogo: require("./assets/images/tax.png"),
+      date: "Sep 2021 – May 2022",
+      desc: "Responsible for filing various taxes, including income tax, corporate tax, and value-added tax.Involved in preparing and managing accounting ledgers, as well as creating financial statements."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Administrative Assistant",
+      company: "제이디아이 세무회계",
+      companylogo: require("./assets/images/tax.png"),
+      date: "Feb 2020 – Sep 2021",
+      desc: "Responsible for filing various taxes, including income tax, corporate tax, and value-added tax.Involved in preparing and managing accounting ledgers, as well as creating financial statements."
     }
   ]
 };
@@ -212,29 +179,41 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/corona.png"),
+      projectName: "COVID-19",
+      projectDesc: "Development of LSTM models for the sports and film industries during the COVID-19 pandemic",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visit",
+          url: "https://github.com/LEEJAEYONG-97/Corona"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/seoul.png"),
+      projectName: "Reviews in Seoul",
+      projectDesc: "Text Mining-Based Analysis of Tourist Reviews in Seoul",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Visit",
+          url: "https://github.com/LEEJAEYONG-97/seoul_tour"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/dust.png"),
+      projectName: "Fine Dust",
+      projectDesc: "Time Series Model-Based Prediction of Fine Dust from China to Korea",
+      footerLink: [
+        {
+          name: "Visit",
+          url: "https://github.com/LEEJAEYONG-97/Fine_Dust"
         }
       ]
     }
@@ -300,7 +279,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -324,7 +303,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +322,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +335,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -372,18 +351,18 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+8210-2985-7660",
+  email_address: "yljy6452@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
@@ -404,4 +383,4 @@ export {
   twitterDetails,
   isHireable,
   resumeSection
-};
+}; 
